@@ -12,12 +12,6 @@ server_addr=t.wifosoft.com
 #server_addr=frp.tekcore.win
 server_port=7000
 
-[ssh]
-type=tcp
-local_ip=127.0.0.1
-local_port=22
-remote_port=6000
-
 
 [${MASTER_NAME}-master]
 type=http
