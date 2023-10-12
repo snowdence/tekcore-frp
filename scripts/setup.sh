@@ -22,7 +22,7 @@ remote_port=6000
 [${MASTER_NAME}-master]
 type=http
 subdomain=${MASTER_NAME}-master
-local_port=8001
+local_port=8006
 
 [${MASTER_NAME}-acb-6554]
 type=http
