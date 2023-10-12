@@ -39,4 +39,5 @@ END
 echo $USAGE
 
 echo "$USAGE" > ./frp_0.51.4_linux_amd64/frpc.ini
-./frp_0.51.4_linux_amd64/frpc -c ./frp_0.51.4_linux_amd64/frpc.ini
+#./frp_0.51.4_linux_amd64/frpc -c ./frp_0.51.4_linux_amd64/frpc.ini
+pm2 start ./frp_0.51.4_linux_amd64/frpc -c ./frp_0.51.4_linux_amd64/frpc.ini
